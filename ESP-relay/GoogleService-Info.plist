@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>944637359031-cbk1hss67miqeaogo0agli6v701kjfhu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.944637359031-cbk1hss67miqeaogo0agli6v701kjfhu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAWAYs3eUei17JQ6zBVS7lGrcPVog0-rbA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>944637359031</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>IvanDosev.ESP-relay</string>
+	<key>PROJECT_ID</key>
+	<string>make-it-so-77244</string>
+	<key>STORAGE_BUCKET</key>
+	<string>make-it-so-77244.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:944637359031:ios:e04748455470b5108b2e32</string>
+	<key>DATABASE_URL</key>
+	<string>https://make-it-so-77244-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
