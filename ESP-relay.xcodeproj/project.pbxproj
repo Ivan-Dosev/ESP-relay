@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0D63F227972E800059FE23 /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E0D63F127972E800059FE23 /* web3swift */; };
+		6E0D63FA27972F760059FE23 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D63F427972F750059FE23 /* Wallet.swift */; };
+		6E0D63FC27972F760059FE23 /* ContractHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D63F627972F750059FE23 /* ContractHelpers.swift */; };
+		6E0D63FD27972F760059FE23 /* ProjectContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D63F727972F760059FE23 /* ProjectContract.swift */; };
+		6E0D63FE27972F760059FE23 /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D63F827972F760059FE23 /* Networks.swift */; };
+		6E0D63FF27972F760059FE23 /* ContractCompoents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D63F927972F760059FE23 /* ContractCompoents.swift */; };
+		6E0D640127972FF10059FE23 /* web3-View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0D640027972FF10059FE23 /* web3-View.swift */; };
 		6E4451962796B7AE0095B0B6 /* ESP_relayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4451952796B7AE0095B0B6 /* ESP_relayApp.swift */; };
 		6E4451982796B7AE0095B0B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4451972796B7AE0095B0B6 /* ContentView.swift */; };
 		6E44519A2796B7AE0095B0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4451992796B7AE0095B0B6 /* Assets.xcassets */; };
@@ -14,6 +21,20 @@
 		6E4451A72796B7AE0095B0B6 /* ESP_relayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4451A62796B7AE0095B0B6 /* ESP_relayTests.swift */; };
 		6E4451B12796B7AE0095B0B6 /* ESP_relayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4451B02796B7AE0095B0B6 /* ESP_relayUITests.swift */; };
 		6E4451B32796B7AE0095B0B6 /* ESP_relayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4451B22796B7AE0095B0B6 /* ESP_relayUITestsLaunchTests.swift */; };
+		6E4451C12796B84F0095B0B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4451C02796B84F0095B0B6 /* GoogleService-Info.plist */; };
+		6E4451C22796B84F0095B0B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4451C02796B84F0095B0B6 /* GoogleService-Info.plist */; };
+		6E4451C32796B84F0095B0B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4451C02796B84F0095B0B6 /* GoogleService-Info.plist */; };
+		6E4451C62796B9380095B0B6 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4451C52796B9380095B0B6 /* FirebaseDatabase */; };
+		6E4451C82796B9380095B0B6 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4451C72796B9380095B0B6 /* FirebaseDatabaseSwift-Beta */; };
+		6E4451CA2796B9380095B0B6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4451C92796B9380095B0B6 /* FirebaseFirestore */; };
+		6E4451CC2796B9380095B0B6 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4451CB2796B9380095B0B6 /* FirebaseFirestoreSwift-Beta */; };
+		6E4451CE2796B9380095B0B6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4451CD2796B9380095B0B6 /* FirebaseStorage */; };
+		6E4451D02796B9380095B0B6 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 6E4451CF2796B9380095B0B6 /* FirebaseStorageSwift-Beta */; };
+		6E53978F279831D6004C6A58 /* ESP32-Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53978E279831D6004C6A58 /* ESP32-Model.swift */; };
+		6E539791279831EF004C6A58 /* ESP32View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E539790279831EF004C6A58 /* ESP32View.swift */; };
+		6E5397932798363E004C6A58 /* MarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5397922798363E004C6A58 /* MarsView.swift */; };
+		6E539795279839E5004C6A58 /* BlockChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E539794279839E5004C6A58 /* BlockChainView.swift */; };
+		6E53979727983AC6004C6A58 /* TemperatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E53979627983AC6004C6A58 /* TemperatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0D63F427972F750059FE23 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		6E0D63F627972F750059FE23 /* ContractHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractHelpers.swift; sourceTree = "<group>"; };
+		6E0D63F727972F760059FE23 /* ProjectContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectContract.swift; sourceTree = "<group>"; };
+		6E0D63F827972F760059FE23 /* Networks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networks.swift; sourceTree = "<group>"; };
+		6E0D63F927972F760059FE23 /* ContractCompoents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractCompoents.swift; sourceTree = "<group>"; };
+		6E0D640027972FF10059FE23 /* web3-View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "web3-View.swift"; sourceTree = "<group>"; };
 		6E4451922796B7AE0095B0B6 /* ESP-relay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESP-relay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4451952796B7AE0095B0B6 /* ESP_relayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP_relayApp.swift; sourceTree = "<group>"; };
 		6E4451972796B7AE0095B0B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +71,12 @@
 		6E4451AC2796B7AE0095B0B6 /* ESP-relayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESP-relayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4451B02796B7AE0095B0B6 /* ESP_relayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP_relayUITests.swift; sourceTree = "<group>"; };
 		6E4451B22796B7AE0095B0B6 /* ESP_relayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP_relayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E4451C02796B84F0095B0B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E53978E279831D6004C6A58 /* ESP32-Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ESP32-Model.swift"; sourceTree = "<group>"; };
+		6E539790279831EF004C6A58 /* ESP32View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32View.swift; sourceTree = "<group>"; };
+		6E5397922798363E004C6A58 /* MarsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsView.swift; sourceTree = "<group>"; };
+		6E539794279839E5004C6A58 /* BlockChainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockChainView.swift; sourceTree = "<group>"; };
+		6E53979627983AC6004C6A58 /* TemperatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +84,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4451C82796B9380095B0B6 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				6E0D63F227972E800059FE23 /* web3swift in Frameworks */,
+				6E4451CC2796B9380095B0B6 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				6E4451C62796B9380095B0B6 /* FirebaseDatabase in Frameworks */,
+				6E4451CE2796B9380095B0B6 /* FirebaseStorage in Frameworks */,
+				6E4451CA2796B9380095B0B6 /* FirebaseFirestore in Frameworks */,
+				6E4451D02796B9380095B0B6 /* FirebaseStorageSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +111,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E0D63F327972F430059FE23 /* web3 */ = {
+			isa = PBXGroup;
+			children = (
+				6E0D63F727972F760059FE23 /* ProjectContract.swift */,
+				6E0D63F827972F760059FE23 /* Networks.swift */,
+				6E0D63F627972F750059FE23 /* ContractHelpers.swift */,
+				6E0D63F927972F760059FE23 /* ContractCompoents.swift */,
+				6E0D63F427972F750059FE23 /* Wallet.swift */,
+				6E0D640027972FF10059FE23 /* web3-View.swift */,
+			);
+			path = web3;
+			sourceTree = "<group>";
+		};
 		6E4451892796B7AE0095B0B6 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +147,11 @@
 		6E4451942796B7AE0095B0B6 /* ESP-relay */ = {
 			isa = PBXGroup;
 			children = (
+				6E4451C02796B84F0095B0B6 /* GoogleService-Info.plist */,
 				6E4451952796B7AE0095B0B6 /* ESP_relayApp.swift */,
 				6E4451972796B7AE0095B0B6 /* ContentView.swift */,
+				6E53978D27983092004C6A58 /* ESP32 */,
+				6E0D63F327972F430059FE23 /* web3 */,
 				6E4451992796B7AE0095B0B6 /* Assets.xcassets */,
 				6E44519B2796B7AE0095B0B6 /* Preview Content */,
 			);
@@ -127,6 +183,18 @@
 			path = "ESP-relayUITests";
 			sourceTree = "<group>";
 		};
+		6E53978D27983092004C6A58 /* ESP32 */ = {
+			isa = PBXGroup;
+			children = (
+				6E539794279839E5004C6A58 /* BlockChainView.swift */,
+				6E53979627983AC6004C6A58 /* TemperatureView.swift */,
+				6E5397922798363E004C6A58 /* MarsView.swift */,
+				6E53978E279831D6004C6A58 /* ESP32-Model.swift */,
+				6E539790279831EF004C6A58 /* ESP32View.swift */,
+			);
+			path = ESP32;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +211,15 @@
 			dependencies = (
 			);
 			name = "ESP-relay";
+			packageProductDependencies = (
+				6E4451C52796B9380095B0B6 /* FirebaseDatabase */,
+				6E4451C72796B9380095B0B6 /* FirebaseDatabaseSwift-Beta */,
+				6E4451C92796B9380095B0B6 /* FirebaseFirestore */,
+				6E4451CB2796B9380095B0B6 /* FirebaseFirestoreSwift-Beta */,
+				6E4451CD2796B9380095B0B6 /* FirebaseStorage */,
+				6E4451CF2796B9380095B0B6 /* FirebaseStorageSwift-Beta */,
+				6E0D63F127972E800059FE23 /* web3swift */,
+			);
 			productName = "ESP-relay";
 			productReference = 6E4451922796B7AE0095B0B6 /* ESP-relay.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +292,10 @@
 				Base,
 			);
 			mainGroup = 6E4451892796B7AE0095B0B6;
+			packageReferences = (
+				6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6E0D63F027972E800059FE23 /* XCRemoteSwiftPackageReference "web3swift" */,
+			);
 			productRefGroup = 6E4451932796B7AE0095B0B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +314,7 @@
 			files = (
 				6E44519D2796B7AE0095B0B6 /* Preview Assets.xcassets in Resources */,
 				6E44519A2796B7AE0095B0B6 /* Assets.xcassets in Resources */,
+				6E4451C12796B84F0095B0B6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4451C22796B84F0095B0B6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4451C32796B84F0095B0B6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +341,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0D640127972FF10059FE23 /* web3-View.swift in Sources */,
+				6E0D63FF27972F760059FE23 /* ContractCompoents.swift in Sources */,
+				6E0D63FC27972F760059FE23 /* ContractHelpers.swift in Sources */,
+				6E53978F279831D6004C6A58 /* ESP32-Model.swift in Sources */,
+				6E539791279831EF004C6A58 /* ESP32View.swift in Sources */,
+				6E0D63FA27972F760059FE23 /* Wallet.swift in Sources */,
+				6E5397932798363E004C6A58 /* MarsView.swift in Sources */,
 				6E4451982796B7AE0095B0B6 /* ContentView.swift in Sources */,
+				6E539795279839E5004C6A58 /* BlockChainView.swift in Sources */,
+				6E0D63FD27972F760059FE23 /* ProjectContract.swift in Sources */,
+				6E53979727983AC6004C6A58 /* TemperatureView.swift in Sources */,
+				6E0D63FE27972F760059FE23 /* Networks.swift in Sources */,
 				6E4451962796B7AE0095B0B6 /* ESP_relayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +700,63 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E0D63F027972E800059FE23 /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/skywinder/web3swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E0D63F127972E800059FE23 /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E0D63F027972E800059FE23 /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
+		};
+		6E4451C52796B9380095B0B6 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		6E4451C72796B9380095B0B6 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+		6E4451C92796B9380095B0B6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6E4451CB2796B9380095B0B6 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		6E4451CD2796B9380095B0B6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		6E4451CF2796B9380095B0B6 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E4451C42796B9380095B0B6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E44518A2796B7AE0095B0B6 /* Project object */;
 }
